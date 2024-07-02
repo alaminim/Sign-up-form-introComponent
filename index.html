@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+   
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="page-description">
+        <h1 class="hero-heading">Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="form-contents">
+        <button type="form-button" id="top-button">
+          <strong>Try it free 7 days</strong> then $20/mo. thereafter
+        </button>
+        <form>
+          <input type="text" name="fname" placeholder="  First Name " required/>
+
+          <input type="text" name="lname" placeholder="  Last Name " required/>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter valid e-mail Address"
+          />
+          <input type="password" name="p" placeholder="password" required/>
+          <br />
+          <button type="submit" id="submit"><a href="confirm.html"> CLAIM YOUR FREE TRIAL </a></button>
+          <div id="check">
+            <span class="notice">
+              By clicking the button, you are agreeing to our
+              <b>Terms and Services</b>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">imAlameen</a>.
+      </p>
+    </footer>
+  </body>
+</html>

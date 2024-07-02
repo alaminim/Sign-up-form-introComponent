@@ -1,0 +1,158 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body {
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: rgb(248, 126, 126);
+    color: white;
+    font-family:'Poppins', 'Segoe UI';
+  }
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .page-description {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    line-height: 2rem;
+    width: 500px;
+    height: 500px;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  form {
+    background-color: blanchedalmond;
+    width: 400px;
+    height: 325px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    box-shadow: rgb(94, 93, 93) 2px 3px 3px 0px;
+  }
+  .form-contents {
+    width: 400px;
+    height: 500px;
+    margin-top: 8rem;
+    padding: 10px;
+  }
+
+  form input {
+    padding: 0.7rem;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    width: 350px;
+    margin-right: 1rem;
+    margin-left: 0.9rem;
+   
+  }
+  #top-button {
+    padding: 0.7rem;
+    width: 412px;
+    border-radius: 5px;
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    margin-bottom: 0.5rem;
+    border: none;
+    box-shadow: rgb(94, 93, 93) 2px 3px 3px 0px;
+  }
+ button a {
+  text-decoration: none;
+  color: #fff;
+}
+  ::placeholder {
+    font-size: 0.8rem;
+    font-weight: 300;
+    width: fit-content;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .notice {
+    color: black;
+    margin-left: 10px;
+  }
+  b {
+    margin-left: 5px;
+    color: hsl(0, 100%, 74%) ;
+  }
+  #submit {
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    width: 380px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-left: 0.8rem;
+    border: none;
+  }
+  span {
+    width: inherit;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+  }
+  @media screen and (max-width: 560px) {
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+   .page-description {
+    box-sizing: content-box;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    
+   }
+   form {
+    padding: 0.2rem;
+    width: 100%;
+   }
+   form input {
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .form-contents {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+   }
+    #top-button {
+      padding: 2rem;
+      line-height: 2;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    #submit  {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      width: 90%;
+      align-self: center;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+  
+    
+  }
